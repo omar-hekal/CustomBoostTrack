@@ -133,7 +133,7 @@ def main():
     print(total_time)
     # Save detector results
     # det.dump_cache()
-    tracker.dump_cache()
+    # tracker.dump_cache()
     # Save for all sequences
     folder = os.path.join(args.result_folder, args.exp_name, "data")
     os.makedirs(folder, exist_ok=True)
